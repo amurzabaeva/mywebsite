@@ -1,0 +1,274 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-size: 100%; font-weight: normal;
+	font-family: courier;
+	width: 100vw;
+
+}
+
+.header {
+	background-image: url(https://images.unsplash.com/photo-1661100710716-2b6aea854cb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80);
+	background-size: cover;
+	height: 100vh;
+	margin-bottom: 0;
+}
+.top {
+	background-color: rgb(0, 0, 0, 0.01);
+	height: 100%;
+	width: 50%;
+	display:flex;
+	float: right;
+}
+.topBoxClass {
+	width: 60%;
+	height: 40%;
+	display: block;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+}
+.topBoxLineClass {
+	align-items: center;
+	width: 80%;
+	size: 1px;
+	color: rgb(53, 53, 148);
+}
+.headerTitleClass {
+	height:50%;
+	width: 100%;
+	letter-spacing: 2px;
+	font-size: 8vh;
+	font-weight: 200;
+	margin:auto;
+	text-align: center;
+	color: #4f74f9;
+}
+.headerSubTitleClass {
+	width: 100%;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 3vh;
+	font-weight: 100;
+	margin: auto;
+	margin-top: 5%;
+	color: #4f74f9;
+}
+
+.aboutmeSection {
+	background-color: white;
+	height: 90vh;
+	width: 100%;
+	margin-top: -7vh;
+	margin-bottom: 10vh;
+	line-height: 4vh;
+
+}
+.profileHeading {
+	text-align: center;
+	font-weight: 100;
+	padding-top: 10vh;
+	font-size: 8vh;
+}
+.profileP {
+	text-align: center;
+	font-weight: 100;
+	font-size: 3vh;
+	margin-top: -3vh;
+	margin-bottom: 4vh;
+	color: #4f74f9;
+}
+.profileLine {
+	align-items: center;
+	width: 60%;
+	size: 1px;
+	color:rgba(152, 143, 143);
+	margin-top: 6vh;
+}
+.aboutMeSet {
+	text-align: right;
+	width: 30%;
+	margin-left: 20vw;
+	font-size: 3vh;
+	margin-top: 2px;
+	margin-bottom: 0;
+
+}
+.name {
+	margin-top: 3%;
+}
+.aboutMeP {
+	font-size: 3vh;
+}
+.aboutMeHeading {
+	text-align: center;
+}
+.aboutMeP {
+	width: 30%;
+}
+h4 {
+	font-size: 3vh;
+	font-weight: 500;
+	color: #4f74f9;
+}
+.aboutMeImg {
+	height: auto;
+	width: 20vw;
+	float: right;
+	margin-right: 25vw;
+	margin-top: 3%;
+}
+.socialIconsClass {
+	height: 4vh;
+	width: 100%;
+	text-align: center;
+	margin-top: 10vh;
+}
+.iconsSize {
+	width: 4vh;
+	height: auto;
+	margin-left: 2vw;
+}
+.educationSectionClass {
+	margin-left: 10%;
+	margin-right: 20%;
+	padding-bottom: 5%;
+}
+.educationTitleClass {
+	text-align: center;
+	margin-bottom: 10vh;
+	color:#4f74f9;
+}
+.line3 {
+	width: 80%;
+	height: 2px;
+	margin-bottom: 10vh;
+
+}
+.workSectionClass {
+	margin-left: 20%;
+	margin-right: 10%;
+	text-align: right;
+	height: 100vh;
+}
+#workAndLeadershipExperienceTitleId{
+	margin-bottom: 10vh;
+	text-align: center;
+	color: #4f74f9;
+}
+
+
+
+
+.checked {
+    color: orange;
+}
+.languagesLines {
+	font-size: 3vh;
+	font-weight: 200;
+	display: inline;
+	letter-spacing: 2px;
+	margin-left: 35%;
+	padding-right: 3%;
+}
+
+.LSSectorClass {
+	background-color: white;
+	height: 50vh;
+}
+.sandl {
+	display: inline-block;
+	margin-left: 4%;
+}
+.languagesClass {
+	width: 40%;
+}
+#languagesTitleId {
+
+	text-align: center;
+	color: #22A39F;
+	font-size: 8vh;
+	font-weight: 100;
+	margin-bottom: 10vh;
+}
+.skillsClass {
+	width: 40%;
+}
+#skillsTitleId {
+	text-align: center;
+	color:#22A39F;
+	font-size: 8vh;
+	font-weight: 100;
+	margin-bottom: 10vh;
+}
+.fa {
+	float: right;
+	margin-right: 2%;
+}
+.footer {
+	height: 30vh;
+	background-color: rgba(52, 52, 53, 0.204);
+	display: flex;
+	margin-top: 10vh;
+}
+.footer-text{
+	margin: auto;
+	font-size: 3vh;
+	font-weight: 40;
+	color: black;
+	letter-spacing: 2px;
+}
+.footerListClass {
+	list-style: none;
+}
+address {
+	margin-left: 2%;
+	font-style: normal;
+	font-size: 4vh;
+}
+.contactsTitleClass {
+	font-style: normal;
+	color: #4f74f9;
+	font-weight: 100;
+	margin-left: 4%;
+}
+#education-title {
+	color: #22A39F;
+	font-size: 9vh;
+	text-align: center;
+	font-weight: 100;
+}
+.left {
+	margin-left: 20%;
+	display: inline-block;
+	width: 25%;
+	font-size: 3vh;
+}
+.right {
+	margin-left: 200px;
+	display: inline-block;
+	width: 30%;
+	font-size: 3vh;
+	vertical-align: top;
+	line-height: 4vh;
+}
+.edu-discription {
+	color: black; 
+}
+.location {
+	color: #22A39F;
+}
+#line3 {
+	width: 80%;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+#line4 {
+	width: 80%;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
